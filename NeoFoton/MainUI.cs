@@ -410,6 +410,8 @@ namespace NeoFoton
                          else
                              btnNext.Enabled = true;
                      label3.Text = "Working on generating preview (raw formats take more time)";
+                     //Cambiar el color de info cuando se haga cambio en la imagenes
+                     label3.BackColor = Color.BlanchedAlmond;
                  });
 
             //zoomLevel = 100;
@@ -707,6 +709,7 @@ namespace NeoFoton
         {
             btnPreview_Click(null);
         }
+
 
         private void chkAutoUpdatePreview_CheckedChanged(object sender, EventArgs e)
         {
