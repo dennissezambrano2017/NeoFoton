@@ -102,8 +102,8 @@ namespace NeoFoton
             // 
             // trkCompress
             // 
-            this.trkCompress.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.trkCompress.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.trkCompress.Location = new System.Drawing.Point(79, 13);
             this.trkCompress.Maximum = 100;
             this.trkCompress.Name = "trkCompress";
@@ -307,8 +307,8 @@ namespace NeoFoton
             // 
             // pnlSizePerc
             // 
-            this.pnlSizePerc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlSizePerc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlSizePerc.Controls.Add(this.numtxtSize);
             this.pnlSizePerc.Controls.Add(this.trkSize);
             this.pnlSizePerc.Location = new System.Drawing.Point(115, 69);
@@ -336,8 +336,8 @@ namespace NeoFoton
             // 
             // trkSize
             // 
-            this.trkSize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.trkSize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.trkSize.Location = new System.Drawing.Point(3, 5);
             this.trkSize.Maximum = 100;
             this.trkSize.Name = "trkSize";
@@ -358,8 +358,8 @@ namespace NeoFoton
             // 
             // txtOpen
             // 
-            this.txtOpen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtOpen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtOpen.Location = new System.Drawing.Point(6, 19);
             this.txtOpen.Name = "txtOpen";
             this.txtOpen.Size = new System.Drawing.Size(657, 20);
@@ -409,7 +409,7 @@ namespace NeoFoton
             this.chkCompressAll.Size = new System.Drawing.Size(420, 17);
             this.chkCompressAll.TabIndex = 3;
             this.chkCompressAll.Text = "Compress Images of All Child Directories (WARNING! It Overwrites Existing Images)" +
-                ".";
+    ".";
             this.chkCompressAll.UseVisualStyleBackColor = true;
             this.chkCompressAll.CheckedChanged += new System.EventHandler(this.chkCompressAll_CheckedChanged);
             // 
@@ -437,8 +437,8 @@ namespace NeoFoton
             // 
             // txtSave
             // 
-            this.txtSave.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtSave.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSave.Location = new System.Drawing.Point(6, 19);
             this.txtSave.Name = "txtSave";
             this.txtSave.Size = new System.Drawing.Size(657, 20);
@@ -466,9 +466,9 @@ namespace NeoFoton
             // 
             // webBroPicView
             // 
-            this.webBroPicView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.webBroPicView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.webBroPicView.Location = new System.Drawing.Point(6, 57);
             this.webBroPicView.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBroPicView.Name = "webBroPicView";
@@ -477,9 +477,9 @@ namespace NeoFoton
             // 
             // grpPicPreview
             // 
-            this.grpPicPreview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.grpPicPreview.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grpPicPreview.Controls.Add(this.chkAutoUpdatePreview);
             this.grpPicPreview.Controls.Add(this.linkToRate);
             this.grpPicPreview.Controls.Add(this.linkToDownload);
@@ -522,7 +522,7 @@ namespace NeoFoton
             this.linkToRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkToRate.Location = new System.Drawing.Point(257, 310);
             this.linkToRate.Name = "linkToRate";
-            this.linkToRate.Size = new System.Drawing.Size(59, 16);
+            this.linkToRate.Size = new System.Drawing.Size(58, 16);
             this.linkToRate.TabIndex = 24;
             this.linkToRate.TabStop = true;
             this.linkToRate.Text = "Rate me";
@@ -535,7 +535,7 @@ namespace NeoFoton
             this.linkToDownload.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkToDownload.Location = new System.Drawing.Point(696, 310);
             this.linkToDownload.Name = "linkToDownload";
-            this.linkToDownload.Size = new System.Drawing.Size(153, 16);
+            this.linkToDownload.Size = new System.Drawing.Size(152, 16);
             this.linkToDownload.TabIndex = 26;
             this.linkToDownload.TabStop = true;
             this.linkToDownload.Text = "Latest Version Available";
@@ -549,7 +549,7 @@ namespace NeoFoton
             this.linkToDonate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkToDonate.Location = new System.Drawing.Point(368, 310);
             this.linkToDonate.Name = "linkToDonate";
-            this.linkToDonate.Size = new System.Drawing.Size(98, 16);
+            this.linkToDonate.Size = new System.Drawing.Size(97, 16);
             this.linkToDonate.TabIndex = 25;
             this.linkToDonate.TabStop = true;
             this.linkToDonate.Text = "Buy me a beer!";
@@ -603,7 +603,7 @@ namespace NeoFoton
             this.linkToFeedback.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkToFeedback.Location = new System.Drawing.Point(102, 310);
             this.linkToFeedback.Name = "linkToFeedback";
-            this.linkToFeedback.Size = new System.Drawing.Size(105, 16);
+            this.linkToFeedback.Size = new System.Drawing.Size(104, 16);
             this.linkToFeedback.TabIndex = 23;
             this.linkToFeedback.TabStop = true;
             this.linkToFeedback.Text = "Send Feedback";
@@ -616,7 +616,7 @@ namespace NeoFoton
             this.linkToBlog.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkToBlog.Location = new System.Drawing.Point(6, 310);
             this.linkToBlog.Name = "linkToBlog";
-            this.linkToBlog.Size = new System.Drawing.Size(64, 16);
+            this.linkToBlog.Size = new System.Drawing.Size(63, 16);
             this.linkToBlog.TabIndex = 22;
             this.linkToBlog.TabStop = true;
             this.linkToBlog.Text = "Visit Blog";
@@ -654,6 +654,7 @@ namespace NeoFoton
             this.Controls.Add(this.grpOpen);
             this.Controls.Add(this.btnCompress);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "MainUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "[Mass Image Compressor 3.1] Compress Images of Directory";
