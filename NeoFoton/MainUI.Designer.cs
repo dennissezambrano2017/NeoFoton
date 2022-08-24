@@ -32,6 +32,9 @@ namespace NeoFoton
             this.btnOpen = new System.Windows.Forms.Button();
             this.trkCompress = new System.Windows.Forms.TrackBar();
             this.grpCompress = new System.Windows.Forms.GroupBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.cmbKBMB = new System.Windows.Forms.ComboBox();
@@ -47,6 +50,7 @@ namespace NeoFoton
             this.rbSizeInPixels = new System.Windows.Forms.RadioButton();
             this.rbSizePercentage = new System.Windows.Forms.RadioButton();
             this.pnlSizePerc = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.numtxtSize = new System.Windows.Forms.NumericUpDown();
             this.trkSize = new System.Windows.Forms.TrackBar();
             this.label2 = new System.Windows.Forms.Label();
@@ -75,26 +79,34 @@ namespace NeoFoton
             this.linkToBlog = new System.Windows.Forms.LinkLabel();
             this.btnNormalSize = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.trkCompress)).BeginInit();
             this.grpCompress.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numtxtCompress)).BeginInit();
             this.panel1.SuspendLayout();
             this.pnlSizePix.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numTxtHeight)).BeginInit();
             this.pnlSizePerc.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numtxtSize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trkSize)).BeginInit();
             this.grpOpen.SuspendLayout();
             this.grpSave.SuspendLayout();
             this.grpPicPreview.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // btnOpen
             // 
             this.btnOpen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOpen.Location = new System.Drawing.Point(705, 17);
+            this.btnOpen.Location = new System.Drawing.Point(721, 14);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(27, 23);
+            this.btnOpen.Size = new System.Drawing.Size(59, 31);
             this.btnOpen.TabIndex = 2;
             this.btnOpen.Text = "...";
             this.btnOpen.UseVisualStyleBackColor = true;
@@ -104,10 +116,10 @@ namespace NeoFoton
             // 
             this.trkCompress.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.trkCompress.Location = new System.Drawing.Point(92, 13);
+            this.trkCompress.Location = new System.Drawing.Point(109, 17);
             this.trkCompress.Maximum = 100;
             this.trkCompress.Name = "trkCompress";
-            this.trkCompress.Size = new System.Drawing.Size(191, 45);
+            this.trkCompress.Size = new System.Drawing.Size(211, 45);
             this.trkCompress.TabIndex = 1;
             this.trkCompress.TickStyle = System.Windows.Forms.TickStyle.None;
             this.trkCompress.Value = 80;
@@ -115,6 +127,9 @@ namespace NeoFoton
             // 
             // grpCompress
             // 
+            this.grpCompress.Controls.Add(this.pictureBox4);
+            this.grpCompress.Controls.Add(this.pictureBox3);
+            this.grpCompress.Controls.Add(this.pictureBox1);
             this.grpCompress.Controls.Add(this.panel3);
             this.grpCompress.Controls.Add(this.panel2);
             this.grpCompress.Controls.Add(this.cmbKBMB);
@@ -131,25 +146,55 @@ namespace NeoFoton
             this.grpCompress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpCompress.Location = new System.Drawing.Point(9, 82);
             this.grpCompress.Name = "grpCompress";
-            this.grpCompress.Size = new System.Drawing.Size(738, 111);
+            this.grpCompress.Size = new System.Drawing.Size(853, 119);
             this.grpCompress.TabIndex = 2;
             this.grpCompress.TabStop = false;
             this.grpCompress.Text = "Compression Parameters";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(792, 77);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(22, 19);
+            this.pictureBox4.TabIndex = 20;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(792, 18);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(22, 19);
+            this.pictureBox3.TabIndex = 19;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(371, 17);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(22, 19);
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panel3.Location = new System.Drawing.Point(0, 40);
+            this.panel3.Location = new System.Drawing.Point(0, 46);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(750, 1);
+            this.panel3.Size = new System.Drawing.Size(853, 1);
             this.panel3.TabIndex = 17;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panel2.Location = new System.Drawing.Point(342, 6);
+            this.panel2.Location = new System.Drawing.Point(404, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1, 108);
+            this.panel2.Size = new System.Drawing.Size(1, 110);
             this.panel2.TabIndex = 16;
             // 
             // cmbKBMB
@@ -159,7 +204,7 @@ namespace NeoFoton
             this.cmbKBMB.Items.AddRange(new object[] {
             "KB",
             "MB"});
-            this.cmbKBMB.Location = new System.Drawing.Point(659, 13);
+            this.cmbKBMB.Location = new System.Drawing.Point(721, 15);
             this.cmbKBMB.Name = "cmbKBMB";
             this.cmbKBMB.Size = new System.Drawing.Size(65, 23);
             this.cmbKBMB.TabIndex = 9;
@@ -169,7 +214,7 @@ namespace NeoFoton
             // txtSize
             // 
             this.txtSize.Enabled = false;
-            this.txtSize.Location = new System.Drawing.Point(567, 13);
+            this.txtSize.Location = new System.Drawing.Point(629, 15);
             this.txtSize.MaxLength = 9;
             this.txtSize.Name = "txtSize";
             this.txtSize.Size = new System.Drawing.Size(86, 21);
@@ -179,7 +224,7 @@ namespace NeoFoton
             // chkFileSize
             // 
             this.chkFileSize.AutoSize = true;
-            this.chkFileSize.Location = new System.Drawing.Point(349, 17);
+            this.chkFileSize.Location = new System.Drawing.Point(411, 15);
             this.chkFileSize.Name = "chkFileSize";
             this.chkFileSize.Size = new System.Drawing.Size(212, 19);
             this.chkFileSize.TabIndex = 7;
@@ -189,7 +234,7 @@ namespace NeoFoton
             // 
             // numtxtCompress
             // 
-            this.numtxtCompress.Location = new System.Drawing.Point(289, 15);
+            this.numtxtCompress.Location = new System.Drawing.Point(322, 15);
             this.numtxtCompress.Minimum = new decimal(new int[] {
             10,
             0,
@@ -211,7 +256,7 @@ namespace NeoFoton
             this.panel1.Controls.Add(this.rbKeepOriginal);
             this.panel1.Controls.Add(this.rbJpeg);
             this.panel1.Controls.Add(this.rbPng);
-            this.panel1.Location = new System.Drawing.Point(349, 46);
+            this.panel1.Location = new System.Drawing.Point(411, 51);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(379, 61);
             this.panel1.TabIndex = 11;
@@ -221,7 +266,7 @@ namespace NeoFoton
             this.rbKeepOriginal.AccessibleDescription = "";
             this.rbKeepOriginal.AutoSize = true;
             this.rbKeepOriginal.Checked = true;
-            this.rbKeepOriginal.Location = new System.Drawing.Point(3, 28);
+            this.rbKeepOriginal.Location = new System.Drawing.Point(4, 29);
             this.rbKeepOriginal.Name = "rbKeepOriginal";
             this.rbKeepOriginal.Size = new System.Drawing.Size(370, 19);
             this.rbKeepOriginal.TabIndex = 12;
@@ -267,7 +312,7 @@ namespace NeoFoton
             // 
             // numTxtHeight
             // 
-            this.numTxtHeight.Location = new System.Drawing.Point(3, 6);
+            this.numTxtHeight.Location = new System.Drawing.Point(3, 12);
             this.numTxtHeight.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -286,7 +331,7 @@ namespace NeoFoton
             // rbSizeInPixels
             // 
             this.rbSizeInPixels.AutoSize = true;
-            this.rbSizeInPixels.Location = new System.Drawing.Point(8, 46);
+            this.rbSizeInPixels.Location = new System.Drawing.Point(8, 52);
             this.rbSizeInPixels.Name = "rbSizeInPixels";
             this.rbSizeInPixels.Size = new System.Drawing.Size(89, 19);
             this.rbSizeInPixels.TabIndex = 3;
@@ -298,7 +343,7 @@ namespace NeoFoton
             // rbSizePercentage
             // 
             this.rbSizePercentage.AutoSize = true;
-            this.rbSizePercentage.Location = new System.Drawing.Point(115, 46);
+            this.rbSizePercentage.Location = new System.Drawing.Point(115, 52);
             this.rbSizePercentage.Name = "rbSizePercentage";
             this.rbSizePercentage.Size = new System.Drawing.Size(140, 19);
             this.rbSizePercentage.TabIndex = 3;
@@ -311,16 +356,27 @@ namespace NeoFoton
             // 
             this.pnlSizePerc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlSizePerc.Controls.Add(this.pictureBox2);
             this.pnlSizePerc.Controls.Add(this.numtxtSize);
             this.pnlSizePerc.Controls.Add(this.trkSize);
             this.pnlSizePerc.Location = new System.Drawing.Point(92, 69);
             this.pnlSizePerc.Name = "pnlSizePerc";
-            this.pnlSizePerc.Size = new System.Drawing.Size(260, 38);
+            this.pnlSizePerc.Size = new System.Drawing.Size(310, 38);
             this.pnlSizePerc.TabIndex = 7;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(279, 14);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(22, 19);
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
             // 
             // numtxtSize
             // 
-            this.numtxtSize.Location = new System.Drawing.Point(197, 6);
+            this.numtxtSize.Location = new System.Drawing.Point(230, 12);
             this.numtxtSize.Minimum = new decimal(new int[] {
             10,
             0,
@@ -340,10 +396,10 @@ namespace NeoFoton
             // 
             this.trkSize.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.trkSize.Location = new System.Drawing.Point(0, 3);
+            this.trkSize.Location = new System.Drawing.Point(15, 14);
             this.trkSize.Maximum = 100;
             this.trkSize.Name = "trkSize";
-            this.trkSize.Size = new System.Drawing.Size(191, 45);
+            this.trkSize.Size = new System.Drawing.Size(211, 45);
             this.trkSize.TabIndex = 5;
             this.trkSize.TickStyle = System.Windows.Forms.TickStyle.None;
             this.trkSize.Value = 70;
@@ -352,7 +408,7 @@ namespace NeoFoton
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 16);
+            this.label2.Location = new System.Drawing.Point(7, 19);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 15);
             this.label2.TabIndex = 6;
@@ -364,15 +420,15 @@ namespace NeoFoton
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtOpen.Location = new System.Drawing.Point(6, 19);
             this.txtOpen.Name = "txtOpen";
-            this.txtOpen.Size = new System.Drawing.Size(693, 21);
+            this.txtOpen.Size = new System.Drawing.Size(709, 21);
             this.txtOpen.TabIndex = 1;
             this.txtOpen.TextChanged += new System.EventHandler(this.txtOpen_TextChanged);
             // 
             // btnCompress
             // 
-            this.btnCompress.Location = new System.Drawing.Point(722, 210);
+            this.btnCompress.Location = new System.Drawing.Point(749, 210);
             this.btnCompress.Name = "btnCompress";
-            this.btnCompress.Size = new System.Drawing.Size(140, 50);
+            this.btnCompress.Size = new System.Drawing.Size(113, 50);
             this.btnCompress.TabIndex = 5;
             this.btnCompress.Tag = "";
             this.btnCompress.Text = "&Compress All";
@@ -381,6 +437,7 @@ namespace NeoFoton
             // 
             // grpOpen
             // 
+            this.grpOpen.Controls.Add(this.pictureBox5);
             this.grpOpen.Controls.Add(this.lblTakeBackup);
             this.grpOpen.Controls.Add(this.chkCompressAll);
             this.grpOpen.Controls.Add(this.txtOpen);
@@ -388,7 +445,7 @@ namespace NeoFoton
             this.grpOpen.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpOpen.Location = new System.Drawing.Point(9, 10);
             this.grpOpen.Name = "grpOpen";
-            this.grpOpen.Size = new System.Drawing.Size(738, 72);
+            this.grpOpen.Size = new System.Drawing.Size(814, 72);
             this.grpOpen.TabIndex = 1;
             this.grpOpen.TabStop = false;
             this.grpOpen.Text = "Open Directory To Compress All Images within";
@@ -418,12 +475,13 @@ namespace NeoFoton
             // 
             // grpSave
             // 
+            this.grpSave.Controls.Add(this.pictureBox6);
             this.grpSave.Controls.Add(this.btnSave);
             this.grpSave.Controls.Add(this.txtSave);
             this.grpSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpSave.Location = new System.Drawing.Point(9, 207);
             this.grpSave.Name = "grpSave";
-            this.grpSave.Size = new System.Drawing.Size(702, 50);
+            this.grpSave.Size = new System.Drawing.Size(734, 50);
             this.grpSave.TabIndex = 3;
             this.grpSave.TabStop = false;
             this.grpSave.Text = "Save Compressed Images to Directory (optional)";
@@ -431,9 +489,9 @@ namespace NeoFoton
             // btnSave
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Location = new System.Drawing.Point(669, 17);
+            this.btnSave.Location = new System.Drawing.Point(631, 13);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(27, 23);
+            this.btnSave.Size = new System.Drawing.Size(59, 31);
             this.btnSave.TabIndex = 8;
             this.btnSave.Text = "...";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -445,7 +503,7 @@ namespace NeoFoton
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSave.Location = new System.Drawing.Point(6, 19);
             this.txtSave.Name = "txtSave";
-            this.txtSave.Size = new System.Drawing.Size(657, 21);
+            this.txtSave.Size = new System.Drawing.Size(617, 21);
             this.txtSave.TabIndex = 7;
             // 
             // btnZoomIn
@@ -647,6 +705,26 @@ namespace NeoFoton
             this.label3.TabIndex = 17;
             this.label3.Text = " ";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(786, 20);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(22, 19);
+            this.pictureBox5.TabIndex = 20;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Location = new System.Drawing.Point(700, 19);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(22, 19);
+            this.pictureBox6.TabIndex = 21;
+            this.pictureBox6.TabStop = false;
+            // 
             // MainUI
             // 
             this.AllowDrop = true;
@@ -668,6 +746,9 @@ namespace NeoFoton
             ((System.ComponentModel.ISupportInitialize)(this.trkCompress)).EndInit();
             this.grpCompress.ResumeLayout(false);
             this.grpCompress.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numtxtCompress)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -675,6 +756,7 @@ namespace NeoFoton
             ((System.ComponentModel.ISupportInitialize)(this.numTxtHeight)).EndInit();
             this.pnlSizePerc.ResumeLayout(false);
             this.pnlSizePerc.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numtxtSize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trkSize)).EndInit();
             this.grpOpen.ResumeLayout(false);
@@ -683,6 +765,8 @@ namespace NeoFoton
             this.grpSave.PerformLayout();
             this.grpPicPreview.ResumeLayout(false);
             this.grpPicPreview.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -735,6 +819,12 @@ namespace NeoFoton
         private System.Windows.Forms.CheckBox chkAutoUpdatePreview;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
 

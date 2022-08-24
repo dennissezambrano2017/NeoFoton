@@ -720,6 +720,7 @@ namespace NeoFoton
             }
         }
 
+
         private void chkAutoUpdatePreview_CheckedChanged(object sender, EventArgs e)
         {
             autoUpdate = chkAutoUpdatePreview.Checked;
