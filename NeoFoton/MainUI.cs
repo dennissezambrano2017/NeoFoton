@@ -710,6 +710,15 @@ namespace NeoFoton
             btnPreview_Click(null);
         }
 
+        private void numtxtCompress_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Valida que no ingresen signos
+            if (!char.IsControl(e.KeyChar)
+                     && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
 
         private void chkAutoUpdatePreview_CheckedChanged(object sender, EventArgs e)
         {

@@ -204,6 +204,7 @@ namespace NeoFoton
             0,
             0});
             this.numtxtCompress.ValueChanged += new System.EventHandler(this.msktxtCompress_TextChanged);
+            this.numtxtCompress.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numtxtCompress_KeyPress);
             // 
             // panel1
             // 
