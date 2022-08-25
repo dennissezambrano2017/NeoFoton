@@ -294,6 +294,7 @@ namespace NeoFoton
                 this.Invoke((MethodInvoker)delegate
                 {
                     MessageBox.Show(
+
                        "Compression Operation Aborted!",
                        "Aborted!",
                        MessageBoxButtons.OK,
