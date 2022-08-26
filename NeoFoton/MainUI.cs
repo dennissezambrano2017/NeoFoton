@@ -77,6 +77,27 @@ namespace NeoFoton
         Timer takeBackupBlinkTimer = new Timer();
         Timer controlHighlightTimer = new Timer();
 
+        //Fncion que permite actualizar los textos de los componentes de la interfaz para cambiar de un idioma a otro.
+        private void uploadLanguage()
+        {
+            grpOpen.Text = Res.grpOpen;
+            chkCompressAll.Text = Res.chkCompressAll;
+            lblTakeBackup.Text = Res.lblTakeBackup;
+            grpCompress.Text = Res.grpCompress;
+            label2.Text = Res.label2;
+            rbSizeInPixels.Text = Res.rbSizeInPixels;
+            rbSizePercentage.Text = Res.rbSizePercentage;
+            chkFileSize.Text = Res.chkFileSize;
+            rbJpeg.Text = Res.rbJpeg;
+            rbPng.Text = Res.rbPng;
+            rbKeepOriginal.Text = Res.rbKeepOriginal;
+            grpPicPreview.Text = Res.grpPicPreview;
+            chkAutoUpdatePreview.Text = Res.chkAutoUpdatePreview;
+            lblPreview.Text = Res.lblPreview;
+            grpSave.Text = Res.grpSave;
+            languageToolStripMenuItem.Text = Res.languageToolStripMenuItem;
+        }
+
 
         public MainUI()
         {
@@ -721,6 +742,24 @@ namespace NeoFoton
             }
         }
 
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void englishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentUICulture =
+                  new System.Globalization.CultureInfo("en-US");
+            uploadLanguage();
+        }
+
+        private void spanishToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentUICulture =
+                  new System.Globalization.CultureInfo("");
+            uploadLanguage();
+        }
 
         private void chkAutoUpdatePreview_CheckedChanged(object sender, EventArgs e)
         {
