@@ -596,7 +596,7 @@ namespace NeoFoton
             this.webBroPicView.Location = new System.Drawing.Point(6, 57);
             this.webBroPicView.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBroPicView.Name = "webBroPicView";
-            this.webBroPicView.Size = new System.Drawing.Size(834, 264);
+            this.webBroPicView.Size = new System.Drawing.Size(840, 264);
             this.webBroPicView.TabIndex = 108;
             // 
             // grpPicPreview
@@ -622,7 +622,7 @@ namespace NeoFoton
             this.grpPicPreview.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpPicPreview.Location = new System.Drawing.Point(9, 285);
             this.grpPicPreview.Name = "grpPicPreview";
-            this.grpPicPreview.Size = new System.Drawing.Size(846, 344);
+            this.grpPicPreview.Size = new System.Drawing.Size(852, 344);
             this.grpPicPreview.TabIndex = 10;
             this.grpPicPreview.TabStop = false;
             this.grpPicPreview.Text = "Compression Preview";
@@ -658,7 +658,7 @@ namespace NeoFoton
             this.linkToDownload.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.linkToDownload.AutoSize = true;
             this.linkToDownload.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkToDownload.Location = new System.Drawing.Point(683, 325);
+            this.linkToDownload.Location = new System.Drawing.Point(689, 325);
             this.linkToDownload.Name = "linkToDownload";
             this.linkToDownload.Size = new System.Drawing.Size(152, 16);
             this.linkToDownload.TabIndex = 26;
