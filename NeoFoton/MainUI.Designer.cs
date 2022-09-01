@@ -349,6 +349,7 @@ namespace NeoFoton
             0,
             0});
             this.numTxtHeight.ValueChanged += new System.EventHandler(this.UpdatePreview);
+            this.numTxtHeight.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numTxtHeight_KeyPress);
             // 
             // rbSizeInPixels
             // 
@@ -534,6 +535,7 @@ namespace NeoFoton
             // 
             this.pbAddOptional.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbAddOptional.BackgroundImage")));
             this.pbAddOptional.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbAddOptional.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbAddOptional.Location = new System.Drawing.Point(706, 19);
             this.pbAddOptional.Name = "pbAddOptional";
             this.pbAddOptional.Size = new System.Drawing.Size(22, 19);
