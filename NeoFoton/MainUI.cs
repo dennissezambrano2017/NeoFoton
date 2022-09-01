@@ -134,6 +134,8 @@ namespace NeoFoton
             linkToRateSf.LinkData = "m ";
             linkToRate.Links.Add(linkToRateSf);
 
+            
+
         }
 
         private void CheckIfNewVersionAvailable()
@@ -742,11 +744,6 @@ namespace NeoFoton
             }
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Threading.Thread.CurrentThread.CurrentUICulture =
@@ -759,6 +756,54 @@ namespace NeoFoton
             System.Threading.Thread.CurrentThread.CurrentUICulture =
                   new System.Globalization.CultureInfo("");
             uploadLanguage();
+        }
+
+        private void pbQuality_Click(object sender, EventArgs e)
+        {
+            message(this.pbQuality, "Moving the bar or entering a value will affect the picture quality.");
+        }
+
+        private void pbDimension_Click(object sender, EventArgs e)
+        {
+            message(this.pbDimension, "Moving the bar or entering a value will affect the width of the image.");
+        }
+
+        private void pbFileSize_Click(object sender, EventArgs e)
+        {
+            message(this.pbFileSize, "If you check the box, only compress images that are larger than the entered value.");
+        }
+
+        
+
+        private void pbAdd_Click(object sender, EventArgs e)
+        {
+            message(this.pbAdd, "Add a file with images");
+        }
+
+        private void pbAddOptional_Click(object sender, EventArgs e)
+        {
+            message(this.pbAddOptional, "Adds the default or custom file path");
+        }
+
+        private void pbFormat_Click(object sender, EventArgs e)
+        {
+            message(this.pbFormat, "Changes the image format.");
+        }
+
+        private void message(Control nameControl, string message)
+        {
+            //Función para mostrar mensaje en cada uno de los picturebox informativo
+            this.ttmensaje.SetToolTip(nameControl, message);
+        }
+
+        private void numtxtSize_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Valida que no ingresen signos
+            if (!char.IsControl(e.KeyChar)
+                     && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
 
         private void chkAutoUpdatePreview_CheckedChanged(object sender, EventArgs e)
