@@ -823,7 +823,7 @@ namespace NeoFoton
             this.MaximizeBox = false;
             this.Name = "MainUI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "[Mass Image Compressor 3.1] Compress Images of Directory";
+            this.Text = "[Mass Image Compressor 3.2] Compress Images of Directory";
             this.Load += new System.EventHandler(this.MainUI_Load);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.MainUI_DragEnter);
             ((System.ComponentModel.ISupportInitialize)(this.trkCompress)).EndInit();
