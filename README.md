@@ -1,1 +1,2 @@
-# WindowsAndCommon
+# Mass Imagen Compressor
+Pantilla original
